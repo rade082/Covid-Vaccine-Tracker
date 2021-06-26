@@ -28,9 +28,31 @@ body {
     margin-right: 2px;
 }
 #diozzNav{
-    background-color: #101010;
+    background-color: rgba(0,0,0,.87);
+    font-weight: 250;
+    padding-left: 0;
+    padding-right: 0;
+}
+#diozzNav ul{
+    margin-top: 0.30rem;
+    margin-left: 1050px;
+    justify-content: right;
+}
+#diozzNav ul a li{
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+    margin-left: 1rem;
+    display: inline-block;
+}
+#diozzNav ul li:hover{
+    color: white;
 }
 #diozz{
+    color: rgb(153, 153, 153);
+    font-weight: 250;
+    font-size: 1.2rem;
+}
+#diozz:hover{
     color: white;
 }
 button:not(:disabled):hover {
@@ -573,10 +595,10 @@ nav {
 }
 .side {
     min-height: 75px;
-    top: 15px;
     display: flex;
     flex-direction: column;
     position: sticky;
+    min-width: 250px;
     margin-right: 10px;
     margin-bottom: 23px;
     border-bottom: 2px solid coral;
