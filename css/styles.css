@@ -32,11 +32,25 @@ body {
     font-weight: 370;
     padding-left: 0;
     padding-right: 0;
+    width: 100%;
+    
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 0.8rem;
 }
 #diozzNav ul{
     margin-top: 0.30rem;
-    margin-left: 1050px;
-    justify-content: right;
+    margin-left: auto;
+    margin-left: auto;
+    
 }
 #diozzNav ul a li{
     cursor: pointer;
