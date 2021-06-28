@@ -35,12 +35,12 @@ body {
     width: 100%;
     
 }
-.left{
+.left1{
     display: flex;
     justify-content: flex-start;
     width: 50%;
 }
-.right{
+.left2{
     display: flex;
     justify-content: flex-end;
     width: 50%;
